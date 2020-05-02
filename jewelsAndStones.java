@@ -7,7 +7,7 @@ class Solution {
             if(arr[idx]==0){
                 if(ch<='Z') arr[idx]=1;        //mark 1 for characters A-Z
                 else arr[idx]=2;               //mark 2 for characters a-z
-            }else arr[idx]=3;                  //mark 3 for both small and capital characters
+            }else arr[idx]=3;                  //mark 3 for both small and capital characters 
         }
         int jewels=0;
         for(int i=0;i<S.length();i++){
