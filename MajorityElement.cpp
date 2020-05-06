@@ -2,6 +2,7 @@ class Solution {
 public:
     int sorting_solution(vector<int>& nums){   //   O(nlogn) time complexity  O(1) space complexity
         sort(nums.begin(),nums.end());
+        // return nums[nums.size()/2];         //can directly return the mid element as majority element will always be present at the mid.
         int count=1;
         for(int i=0;i<nums.size()-1;i++){
             if(nums[i+1]==nums[i]) count++;
